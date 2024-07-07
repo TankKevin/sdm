@@ -96,7 +96,7 @@ def _get_superman():
     for region in regions:
         superman_long[region] = superman_long[region] * promotion
     
-    # smooth AMR Oct wk4, treat it as anomaly
+    # smooth AMR Oct wk4, treat it as outlier
     superman_long.loc[superman_long['week'] == 'Oct wk4', 'AMR'] = ((superman_long.loc[superman_long['week'] == 'Oct wk3', 'AMR'].values + 
                                                                      superman_long.loc[superman_long['week'] == 'Oct wk5', 'AMR'].values) / 2)
 
