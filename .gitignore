@@ -1,4 +1,4 @@
-**/superman-sdm.ipynb
+**/*.ipynb
 **/.venv
 **/__pycache__
 **/*.csv
