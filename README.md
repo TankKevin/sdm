@@ -1,3 +1,3 @@
-- If you would like to deploy locally, simply run main.py is OK.
-
-- Python version tested: python=3.9
+- If you would like to deploy locally, simply run main.py.
+- Python version tested: python=3.9.
+- Please visit [http://42.120.5.35:8050](http://42.120.5.35:8050) for online interaction.
